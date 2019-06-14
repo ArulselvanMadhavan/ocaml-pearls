@@ -1,0 +1,25 @@
+opam-version: "2.0"
+name: "ocaml-pearls"
+version: "0.1"
+synopsis: "Pearls of Functional Algorithm Design"
+description: """
+Richard Bird's Pearls of Functional Algorithm Design in OCaml
+"""
+maintainer: "arulselvan1234@gmail.com"
+authors: "arulselvan1234@gmail.com"
+license: "GPL-3"
+homepage: ""
+bug-reports: ""
+dev-repo: ""
+depends: [
+  "ocaml"
+  "ocamlfind"
+  "dune"
+  "ppx_deriving"
+  "core"
+]
+build: [
+  ["./configure" "--prefix=%{prefix}%"]
+  [make]
+]
+install: [make "install"]

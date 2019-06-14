@@ -1,0 +1,2 @@
+* OCaml Pearls
+  - Pearls of functional algorithm design

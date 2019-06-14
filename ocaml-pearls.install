@@ -1,0 +1,12 @@
+lib: [
+  "_build/install/default/lib/ocaml-pearls/META"
+  "_build/install/default/lib/ocaml-pearls/dune-package"
+  "_build/install/default/lib/ocaml-pearls/opam"
+]
+bin: [
+  "_build/install/default/bin/ocaml-pearls"
+  "_build/install/default/bin/pearls"
+]
+doc: [
+  "_build/install/default/doc/ocaml-pearls/README.org"
+]

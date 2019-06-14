@@ -1,0 +1,11 @@
+EXCLUDE_QUERY_DIR
+B /home/arul/dev/ocaml-projects/ocaml-pearls/_opam/lib/ppx_deriving
+B /home/arul/dev/ocaml-projects/ocaml-pearls/_opam/lib/ppx_deriving/runtime
+B /home/arul/dev/ocaml-projects/ocaml-pearls/_opam/lib/result
+B ../../_build/default/lib/pearl1/.smallest_free_number.objs/byte
+S /home/arul/dev/ocaml-projects/ocaml-pearls/_opam/lib/ppx_deriving
+S /home/arul/dev/ocaml-projects/ocaml-pearls/_opam/lib/ppx_deriving/runtime
+S /home/arul/dev/ocaml-projects/ocaml-pearls/_opam/lib/result
+S .
+FLG -ppx '/home/arul/dev/ocaml-projects/ocaml-pearls/_build/default/.ppx/cab44b617c4c9cdb0e2c1bf3540ee846/ppx.exe --as-ppx --cookie '\''library-name="smallest_free_number"'\'''
+FLG -w @a-4-29-40-41-42-44-45-48-58-59-60-40 -strict-sequence -strict-formats -short-paths -keep-locs
